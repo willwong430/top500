@@ -12,6 +12,10 @@ export function toTop500(rows: { ticker: string; name: string; marketCap?: numbe
 }
 
 export async function writeSnapshot(top500: Ranked[], when: Date) {
+  if (top500.length < 500) {
+    console.error(`[close] abort: only ${top500.length} rows (need 500)`);
+    throw new Error(`too few rows (${top500.length})`);
+  }
   const DATA_DIR = path.resolve(process.cwd(), 'data', 'snapshots');
   await fs.mkdir(DATA_DIR, { recursive: true });
   const fname = `${when.toISOString().slice(0,10)}.json`;

@@ -35,6 +35,21 @@ app.get('/api/changes.json', async (_req: Request, res: Response) => {
   }
 });
 
+app.get('/api/healthz', async (_req: Request, res: Response) => {
+  try {
+    const files = (await fs.readdir(DATA_DIR)).filter(f => f.endsWith('.json')).sort();
+    const latest = files.at(-1) || null;
+    let count = null;
+    if (latest) {
+      const data = JSON.parse(await fs.readFile(path.join(DATA_DIR, latest), 'utf8'));
+      count = Array.isArray(data) ? data.length : null;
+    }
+    res.json({ latest, count, timezone: process.env.TZ || 'unset' });
+  } catch (e:any) {
+    res.status(500).json({ error: e?.message || 'health error' });
+  }
+});
+
 // Run once daily at ~4:05pm ET
 const buf = Number(process.env.CLOSE_BUFFER_MIN || 5);
 cron.schedule(`0 ${buf} 16 * * 1-5`, () => runClose(), { timezone: 'America/New_York' });
