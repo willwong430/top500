@@ -1,0 +1,16 @@
+server:
+  build: ./server
+  env_file: .env
+  ports:
+    - "4000:4000"
+  volumes:
+    - ./server/data:/app/data
+  restart: unless-stopped
+
+web:
+  build: ./web
+  env_file: .env
+  ports:
+    - "5173:5173"
+  restart: unless-stopped
+
