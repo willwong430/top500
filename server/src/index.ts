@@ -4,6 +4,7 @@ import path from 'node:path';
 import fs from 'node:fs/promises';
 import cron from 'node-cron';
 import { runClose } from './closeJob.js';
+import { fetchSp500List } from "./lib/sp500.js";
 
 const app = express();
 const DATA_DIR = path.resolve(process.cwd(), 'data', 'snapshots');
@@ -47,6 +48,15 @@ app.get('/api/healthz', async (_req: Request, res: Response) => {
     res.json({ latest, count, timezone: process.env.TZ || 'unset' });
   } catch (e:any) {
     res.status(500).json({ error: e?.message || 'health error' });
+  }
+});
+
+app.get("/api/sp500.json", async (_req: Request, res: Response) => {
+  try {
+    const rows = await fetchSp500List();
+    res.json(rows);
+  } catch (e: any) {
+    res.status(500).json({ error: e?.message || "sp500 scrape failed" });
   }
 });
 

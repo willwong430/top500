@@ -17,7 +17,6 @@ export async function runClose() {
     console.log(`[close] computed top500: ${top500.length}`);
 
     if (top500.length < 500) throw new Error(`too few rows (${top500.length})`);
-
     await writeSnapshot(top500, today);
     console.log(`[close] wrote ${today.toISOString().slice(0,10)}.json`);
   } catch (e: any) {
@@ -28,8 +27,7 @@ export async function runClose() {
   }
 }
 
-// CLI entry point (so `node dist/src/closeJob.js` runs the job)
+// Run when invoked directly: `node dist/src/closeJob.js`
 if (import.meta.url === `file://${process.argv[1]}`) {
   runClose();
 }
-
