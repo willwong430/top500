@@ -1,0 +1,3002 @@
+[
+  {
+    "rank": 1,
+    "ticker": "AAPL",
+    "name": "Apple Inc.",
+    "marketCap": 3791126029400
+  },
+  {
+    "rank": 2,
+    "ticker": "AMZN",
+    "name": "Amazon.Com Inc",
+    "marketCap": 2343934380678.66
+  },
+  {
+    "rank": 3,
+    "ticker": "AVGO",
+    "name": "Broadcom Inc. Common Stock",
+    "marketCap": 1579772770809.66
+  },
+  {
+    "rank": 4,
+    "ticker": "BRK.B",
+    "name": "BERKSHIRE HATHAWAY Class B",
+    "marketCap": 1078732094542.47
+  },
+  {
+    "rank": 5,
+    "ticker": "BRK.A",
+    "name": "Berkshire Hathaway Inc.",
+    "marketCap": 1078235783100
+  },
+  {
+    "rank": 6,
+    "ticker": "BABA",
+    "name": "Alibaba Group Holding Limited American Depositary Shares, each represents eight Ordinary Shares",
+    "marketCap": 409919057368.76
+  },
+  {
+    "rank": 7,
+    "ticker": "COST",
+    "name": "Costco Wholesale Corp",
+    "marketCap": 405982930150
+  },
+  {
+    "rank": 8,
+    "ticker": "ABBV",
+    "name": "ABBVIE INC.",
+    "marketCap": 389720416194.33
+  },
+  {
+    "rank": 9,
+    "ticker": "BAC",
+    "name": "Bank of America Corporation",
+    "marketCap": 386716719159.52
+  },
+  {
+    "rank": 10,
+    "ticker": "ASML",
+    "name": "ASML Holding NV",
+    "marketCap": 374137882849.6
+  },
+  {
+    "rank": 11,
+    "ticker": "CSCO",
+    "name": "Cisco Systems, Inc. Common Stock (DE)",
+    "marketCap": 265733899180.66
+  },
+  {
+    "rank": 12,
+    "ticker": "AMD",
+    "name": "Advanced Micro Devices",
+    "marketCap": 258778654647.94
+  },
+  {
+    "rank": 13,
+    "ticker": "AXP",
+    "name": "American Express Company",
+    "marketCap": 237769039321.36002
+  },
+  {
+    "rank": 14,
+    "ticker": "ABT",
+    "name": "Abbott Laboratories",
+    "marketCap": 232438301319.7
+  },
+  {
+    "rank": 15,
+    "ticker": "CRM",
+    "name": "Salesforce, Inc.",
+    "marketCap": 231745360000
+  },
+  {
+    "rank": 16,
+    "ticker": "AZN",
+    "name": "AstraZeneca PLC",
+    "marketCap": 228692971609.92
+  },
+  {
+    "rank": 17,
+    "ticker": "APP",
+    "name": "Applovin Corporation Class A Common Stock",
+    "marketCap": 226580087392.04
+  },
+  {
+    "rank": 18,
+    "ticker": "CAT",
+    "name": "Caterpillar Inc.",
+    "marketCap": 218198743176.48
+  },
+  {
+    "rank": 19,
+    "ticker": "C",
+    "name": "Citigroup Inc.",
+    "marketCap": 190385660611.16
+  },
+  {
+    "rank": 20,
+    "ticker": "BKNG",
+    "name": "Booking Holdings Inc. Common Stock",
+    "marketCap": 179810041980
+  },
+  {
+    "rank": 21,
+    "ticker": "ANET",
+    "name": "Arista Networks",
+    "marketCap": 179103316792.5
+  },
+  {
+    "rank": 22,
+    "ticker": "BLK",
+    "name": "Blackrock, Inc.",
+    "marketCap": 179080141573.65
+  },
+  {
+    "rank": 23,
+    "ticker": "BA",
+    "name": "Boeing Company",
+    "marketCap": 167307451595.69998
+  },
+  {
+    "rank": 24,
+    "ticker": "AMAT",
+    "name": "Applied Materials Inc",
+    "marketCap": 162451323713.84
+  },
+  {
+    "rank": 25,
+    "ticker": "ADBE",
+    "name": "Adobe Inc.",
+    "marketCap": 150850882000
+  },
+  {
+    "rank": 26,
+    "ticker": "APH",
+    "name": "Amphenol Corporation",
+    "marketCap": 149684928208.6
+  },
+  {
+    "rank": 27,
+    "ticker": "ACN",
+    "name": "Accenture PLC",
+    "marketCap": 148639340000
+  },
+  {
+    "rank": 28,
+    "ticker": "ARM",
+    "name": "Arm Holdings plc American Depositary Shares",
+    "marketCap": 147894439540.38
+  },
+  {
+    "rank": 29,
+    "ticker": "AMGN",
+    "name": "Amgen Inc",
+    "marketCap": 146962018085.98
+  },
+  {
+    "rank": 30,
+    "ticker": "BSX",
+    "name": "Boston Scientific Corp.",
+    "marketCap": 145478375426.12
+  },
+  {
+    "rank": 31,
+    "ticker": "COF",
+    "name": "Capital One Financial",
+    "marketCap": 143283852409.30002
+  },
+  {
+    "rank": 32,
+    "ticker": "BHP",
+    "name": "BHP Group Limited American Depositary Shares (Each representing two Ordinary Shares)",
+    "marketCap": 138990652969.98
+  },
+  {
+    "rank": 33,
+    "ticker": "BX",
+    "name": "Blackstone Inc.",
+    "marketCap": 136855337946.48
+  },
+  {
+    "rank": 34,
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "marketCap": 122995838787.28
+  },
+  {
+    "rank": 35,
+    "ticker": "ADI",
+    "name": "Analog Devices, Inc.",
+    "marketCap": 121788487736.16
+  },
+  {
+    "rank": 36,
+    "ticker": "CRWD",
+    "name": "CrowdStrike Holdings, Inc. Class A Common Stock",
+    "marketCap": 120814823498.8
+  },
+  {
+    "rank": 37,
+    "ticker": "ADP",
+    "name": "Automatic Data Processing",
+    "marketCap": 118099797494.64001
+  },
+  {
+    "rank": 38,
+    "ticker": "CMCSA",
+    "name": "Comcast Corp",
+    "marketCap": 117116790243.44
+  },
+  {
+    "rank": 39,
+    "ticker": "BTI",
+    "name": "British American Tobacco p.l.c. American Depositary Shares, American Depositary Shares, each representing one Ordinary Share",
+    "marketCap": 115590102490
+  },
+  {
+    "rank": 40,
+    "ticker": "BUD",
+    "name": "Anheuser-Busch INBEV SA/NV",
+    "marketCap": 115479252078.94
+  },
+  {
+    "rank": 41,
+    "ticker": "CB",
+    "name": "Chubb Limited",
+    "marketCap": 111908378342.17
+  },
+  {
+    "rank": 42,
+    "ticker": "BBVA",
+    "name": "Banco Bilbao Vizcaya Argentaria, S.A.",
+    "marketCap": 110814908223.25
+  },
+  {
+    "rank": 43,
+    "ticker": "CEG",
+    "name": "Constellation Energy Corporation Common Stock",
+    "marketCap": 103487472099.54
+  },
+  {
+    "rank": 44,
+    "ticker": "BN",
+    "name": "Brookfield Corporation",
+    "marketCap": 102346833293.32
+  },
+  {
+    "rank": 45,
+    "ticker": "CME",
+    "name": "CME Group Inc.",
+    "marketCap": 97403555050.4
+  },
+  {
+    "rank": 46,
+    "ticker": "CDNS",
+    "name": "Cadence Design Systems",
+    "marketCap": 95401473900
+  },
+  {
+    "rank": 47,
+    "ticker": "BAM",
+    "name": "Brookfield Asset Management Ltd.",
+    "marketCap": 93706659950.33
+  },
+  {
+    "rank": 48,
+    "ticker": "BMO",
+    "name": "Bank of Montreal",
+    "marketCap": 93571153365.09999
+  },
+  {
+    "rank": 49,
+    "ticker": "BP",
+    "name": "BP p.l.c.",
+    "marketCap": 91832570038.67
+  },
+  {
+    "rank": 50,
+    "ticker": "AMT",
+    "name": "American Tower Corporation",
+    "marketCap": 90967165480.75
+  },
+  {
+    "rank": 51,
+    "ticker": "BMY",
+    "name": "Bristol-Myers Squibb Co.",
+    "marketCap": 89803429172.56
+  },
+  {
+    "rank": 52,
+    "ticker": "CTAS",
+    "name": "Cintas Corp",
+    "marketCap": 82298615021.76001
+  },
+  {
+    "rank": 53,
+    "ticker": "AEM",
+    "name": "Agnico Eagle Mines Ltd.",
+    "marketCap": 82092724737.4
+  },
+  {
+    "rank": 54,
+    "ticker": "COIN",
+    "name": "Coinbase Global, Inc. Class A Common Stock",
+    "marketCap": 80316298496.62999
+  },
+  {
+    "rank": 55,
+    "ticker": "BNS",
+    "name": "Bank of Nova Scotia",
+    "marketCap": 80002018652.61
+  },
+  {
+    "rank": 56,
+    "ticker": "APO",
+    "name": "Apollo Global Management, Inc.",
+    "marketCap": 78728039538.05
+  },
+  {
+    "rank": 57,
+    "ticker": "AJG",
+    "name": "Arthur J. Gallagher & Co.",
+    "marketCap": 77972806450
+  },
+  {
+    "rank": 58,
+    "ticker": "BK",
+    "name": "Bank of New York Mellon Corporation",
+    "marketCap": 77245026576.48
+  },
+  {
+    "rank": 59,
+    "ticker": "AON",
+    "name": "Aon plc Class A",
+    "marketCap": 76780318659.76
+  },
+  {
+    "rank": 60,
+    "ticker": "CI",
+    "name": "The Cigna Group",
+    "marketCap": 76386807222.75
+  },
+  {
+    "rank": 61,
+    "ticker": "CRH",
+    "name": "CRH Public Limited Company",
+    "marketCap": 76253598249.66
+  },
+  {
+    "rank": 62,
+    "ticker": "ABNB",
+    "name": "Airbnb, Inc. Class A Common Stock",
+    "marketCap": 75733552379
+  },
+  {
+    "rank": 63,
+    "ticker": "CM",
+    "name": "Canadian Imperial Bank of Commerce",
+    "marketCap": 75071879941.32
+  },
+  {
+    "rank": 64,
+    "ticker": "BCS",
+    "name": "Barclays PLC",
+    "marketCap": 72005163656.40001
+  },
+  {
+    "rank": 65,
+    "ticker": "AZO",
+    "name": "AutoZone, Inc.",
+    "marketCap": 69960169950
+  },
+  {
+    "rank": 66,
+    "ticker": "ADSK",
+    "name": "Autodesk Inc",
+    "marketCap": 68773440000
+  },
+  {
+    "rank": 67,
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources Limited",
+    "marketCap": 68014683239.99999
+  },
+  {
+    "rank": 68,
+    "ticker": "CP",
+    "name": "Canadian Pacific Kansas City Limited",
+    "marketCap": 67480440679.89001
+  },
+  {
+    "rank": 69,
+    "ticker": "CL",
+    "name": "Colgate-Palmolive Company",
+    "marketCap": 64326294665.850006
+  },
+  {
+    "rank": 70,
+    "ticker": "CSX",
+    "name": "CSX Corporation",
+    "marketCap": 63404061246.14
+  },
+  {
+    "rank": 71,
+    "ticker": "AMX",
+    "name": "America Movil S.A.B de C.V American Depositary Shares (each representing the right to receive twenty (20) Series B Shares)",
+    "marketCap": 62921061000
+  },
+  {
+    "rank": 72,
+    "ticker": "CRWV",
+    "name": "CoreWeave, Inc. Class A Common Stock",
+    "marketCap": 59580637858.5
+  },
+  {
+    "rank": 73,
+    "ticker": "AFL",
+    "name": "Aflac Inc.",
+    "marketCap": 59558834726.4
+  },
+  {
+    "rank": 74,
+    "ticker": "COR",
+    "name": "Cencora, Inc.",
+    "marketCap": 59520509467
+  },
+  {
+    "rank": 75,
+    "ticker": "APD",
+    "name": "Air Products & Chemicals, Inc.",
+    "marketCap": 59372860079.2
+  },
+  {
+    "rank": 76,
+    "ticker": "B",
+    "name": "Barrick Mining Corporation",
+    "marketCap": 58822665879.2
+  },
+  {
+    "rank": 77,
+    "ticker": "CPNG",
+    "name": "Coupang, Inc.",
+    "marketCap": 58684469528.369995
+  },
+  {
+    "rank": 78,
+    "ticker": "ALNY",
+    "name": "Alnylam Pharmaceuticals, Inc.",
+    "marketCap": 58513672296
+  },
+  {
+    "rank": 79,
+    "ticker": "AEP",
+    "name": "American Electric Power Company, Inc.",
+    "marketCap": 58367500433.82
+  },
+  {
+    "rank": 80,
+    "ticker": "CNI",
+    "name": "Canadian National Railway",
+    "marketCap": 57975696000
+  },
+  {
+    "rank": 81,
+    "ticker": "CMI",
+    "name": "Cummins Inc.",
+    "marketCap": 57600075325.520004
+  },
+  {
+    "rank": 82,
+    "ticker": "ALL",
+    "name": "The Allstate Corporation",
+    "marketCap": 56063394861.84
+  },
+  {
+    "rank": 83,
+    "ticker": "AXON",
+    "name": "Axon Enterprise, Inc. Common Stock",
+    "marketCap": 55647087249.600006
+  },
+  {
+    "rank": 84,
+    "ticker": "CMG",
+    "name": "Chipotle Mexican Grill, Inc.",
+    "marketCap": 53742670800
+  },
+  {
+    "rank": 85,
+    "ticker": "BDX",
+    "name": "Becton, Dickinson and Co.",
+    "marketCap": 52911430777.4
+  },
+  {
+    "rank": 86,
+    "ticker": "CARR",
+    "name": "Carrier Global Corporation",
+    "marketCap": 50074183729.08
+  },
+  {
+    "rank": 87,
+    "ticker": "BKR",
+    "name": "Baker Hughes Company",
+    "marketCap": 49806613344.48
+  },
+  {
+    "rank": 88,
+    "ticker": "AMP",
+    "name": "Ameriprise Financial, Inc.",
+    "marketCap": 47068849688.85
+  },
+  {
+    "rank": 89,
+    "ticker": "CBRE",
+    "name": "CBRE GROUP, INC.",
+    "marketCap": 47013583350
+  },
+  {
+    "rank": 90,
+    "ticker": "CTVA",
+    "name": "Corteva, Inc. Common Stock",
+    "marketCap": 46239919000
+  },
+  {
+    "rank": 91,
+    "ticker": "BIDU",
+    "name": "Baidu, Inc.",
+    "marketCap": 45150869480.64
+  },
+  {
+    "rank": 92,
+    "ticker": "ARGX",
+    "name": "argenx SE American Depositary Shares",
+    "marketCap": 43551074261.24
+  },
+  {
+    "rank": 93,
+    "ticker": "CPRT",
+    "name": "Copart Inc",
+    "marketCap": 43386427922.18
+  },
+  {
+    "rank": 94,
+    "ticker": "AIG",
+    "name": "American International Group, Inc.",
+    "marketCap": 43201220223
+  },
+  {
+    "rank": 95,
+    "ticker": "AME",
+    "name": "Ametek, Inc.",
+    "marketCap": 43045199064.799995
+  },
+  {
+    "rank": 96,
+    "ticker": "CCL",
+    "name": "Carnival Corporation",
+    "marketCap": 41517111677.96
+  },
+  {
+    "rank": 97,
+    "ticker": "CCI",
+    "name": "Crown Castle Inc.",
+    "marketCap": 41504651513.91
+  },
+  {
+    "rank": 98,
+    "ticker": "BSBR",
+    "name": "BANCO SANTANDER (BRASIL) SA",
+    "marketCap": 41016113146.89
+  },
+  {
+    "rank": 99,
+    "ticker": "CCEP",
+    "name": "Coca-Cola Europacific Partners plc Ordinary Shares",
+    "marketCap": 40605799871.52
+  },
+  {
+    "rank": 100,
+    "ticker": "CHTR",
+    "name": "Charter Comm Inc Del CL A New",
+    "marketCap": 37343975299
+  },
+  {
+    "rank": 101,
+    "ticker": "CCJ",
+    "name": "Cameco Corporation",
+    "marketCap": 37260457799.84
+  },
+  {
+    "rank": 102,
+    "ticker": "ALC",
+    "name": "Alcon Inc. Ordinary Shares",
+    "marketCap": 36546048000
+  },
+  {
+    "rank": 103,
+    "ticker": "CAH",
+    "name": "Cardinal Health, Inc.",
+    "marketCap": 36518834050.22
+  },
+  {
+    "rank": 104,
+    "ticker": "CUK",
+    "name": "Carnival PLC",
+    "marketCap": 36306725967.06
+  },
+  {
+    "rank": 105,
+    "ticker": "ABEV",
+    "name": "AMBEV S.A.",
+    "marketCap": 35862258786.7
+  },
+  {
+    "rank": 106,
+    "ticker": "ARES",
+    "name": "Ares Management Corporation Class A Common Stock",
+    "marketCap": 35777181682.200005
+  },
+  {
+    "rank": 107,
+    "ticker": "CSGP",
+    "name": "CoStar Group Inc",
+    "marketCap": 35582393904.38
+  },
+  {
+    "rank": 108,
+    "ticker": "A",
+    "name": "Agilent Technologies Inc.",
+    "marketCap": 34981117687.53
+  },
+  {
+    "rank": 109,
+    "ticker": "BBD",
+    "name": "Banco Bradesco S.A. American Depositary Shares (Each representing one Preferred Shares)",
+    "marketCap": 34904139692.4
+  },
+  {
+    "rank": 110,
+    "ticker": "AU",
+    "name": "AngloGold Ashanti plc",
+    "marketCap": 34474044569
+  },
+  {
+    "rank": 111,
+    "ticker": "CHT",
+    "name": "CHUNGHWA TELECOM CO., LTD",
+    "marketCap": 33954343549.350002
+  },
+  {
+    "rank": 112,
+    "ticker": "ACGL",
+    "name": "Arch Capital Group Ltd",
+    "marketCap": 33918260409.6
+  },
+  {
+    "rank": 113,
+    "ticker": "ALAB",
+    "name": "Astera Labs, Inc. Common Stock",
+    "marketCap": 32874821509.2
+  },
+  {
+    "rank": 114,
+    "ticker": "CTSH",
+    "name": "Cognizant Technology Solutions",
+    "marketCap": 32712759860.260002
+  },
+  {
+    "rank": 115,
+    "ticker": "CVE",
+    "name": "Cenovus Energy Inc.",
+    "marketCap": 31981575270
+  },
+  {
+    "rank": 116,
+    "ticker": "BRO",
+    "name": "Brown & Brown, Inc.",
+    "marketCap": 30932658909.36
+  },
+  {
+    "rank": 117,
+    "ticker": "BBDO",
+    "name": "Banco Bradesco S.A. American Depositary Shares (Each representing one  Common Share, no par value)",
+    "marketCap": 30461794640.64
+  },
+  {
+    "rank": 118,
+    "ticker": "CRCL",
+    "name": "Circle Internet Group, Inc.",
+    "marketCap": 29389032957.69
+  },
+  {
+    "rank": 119,
+    "ticker": "ADM",
+    "name": "Archer Daniels Midland Company",
+    "marketCap": 29116147669.8
+  },
+  {
+    "rank": 120,
+    "ticker": "CLS",
+    "name": "Celestica, Inc.",
+    "marketCap": 28043818519.94
+  },
+  {
+    "rank": 121,
+    "ticker": "AVB",
+    "name": "AvalonBay Communities, Inc.",
+    "marketCap": 27744755666.920002
+  },
+  {
+    "rank": 122,
+    "ticker": "BR",
+    "name": "Broadridge Financial Solutions Inc",
+    "marketCap": 27642519520
+  },
+  {
+    "rank": 123,
+    "ticker": "AEE",
+    "name": "Ameren Corporation",
+    "marketCap": 27608852627.8
+  },
+  {
+    "rank": 124,
+    "ticker": "ATO",
+    "name": "Atmos Energy Corporation",
+    "marketCap": 27040195534.949997
+  },
+  {
+    "rank": 125,
+    "ticker": "AWK",
+    "name": "American Water Works Company, Inc",
+    "marketCap": 26603640459.760002
+  },
+  {
+    "rank": 126,
+    "ticker": "AMRZ",
+    "name": "Amrize Ltd",
+    "marketCap": 26365422229.23
+  },
+  {
+    "rank": 127,
+    "ticker": "CQP",
+    "name": "Cheniere Energy Partners, LP",
+    "marketCap": 26153120085.690002
+  },
+  {
+    "rank": 128,
+    "ticker": "CBOE",
+    "name": "Cboe Global Markets, Inc.",
+    "marketCap": 25469788457.600002
+  },
+  {
+    "rank": 129,
+    "ticker": "CNP",
+    "name": "CenterPoint Energy, Inc.",
+    "marketCap": 25337685915.18
+  },
+  {
+    "rank": 130,
+    "ticker": "AFRM",
+    "name": "Affirm Holdings, Inc. Class A Common Stock",
+    "marketCap": 24759193373.420002
+  },
+  {
+    "rank": 131,
+    "ticker": "CRDO",
+    "name": "Credo Technology Group Holding Ltd Ordinary Shares",
+    "marketCap": 24726260393.350002
+  },
+  {
+    "rank": 132,
+    "ticker": "CINF",
+    "name": "Cincinnati Financial Corp",
+    "marketCap": 24535460611.8
+  },
+  {
+    "rank": 133,
+    "ticker": "ASX",
+    "name": "ASE Technology Holding Co., Ltd.",
+    "marketCap": 24290473185.72
+  },
+  {
+    "rank": 134,
+    "ticker": "BNTX",
+    "name": "BioNTech SE American Depositary Share",
+    "marketCap": 23578306849.92
+  },
+  {
+    "rank": 135,
+    "ticker": "CG",
+    "name": "The Carlyle Group Inc. Common Stock",
+    "marketCap": 23145496998.93
+  },
+  {
+    "rank": 136,
+    "ticker": "CFG",
+    "name": "Citizens Financial Group, Inc.",
+    "marketCap": 23025409032.82
+  },
+  {
+    "rank": 137,
+    "ticker": "BEKE",
+    "name": "KE Holdings Inc. American Depositary Shares (each representing three Class A Ordinary Shares)",
+    "marketCap": 22888130539.649998
+  },
+  {
+    "rank": 138,
+    "ticker": "CHKP",
+    "name": "Check Point Software Technologies Ltd",
+    "marketCap": 21969642464.8
+  },
+  {
+    "rank": 139,
+    "ticker": "AER",
+    "name": "Aercap Holdings N.V.",
+    "marketCap": 21955281733.84
+  },
+  {
+    "rank": 140,
+    "ticker": "CDW",
+    "name": "CDW Corporation",
+    "marketCap": 21542454655.65
+  },
+  {
+    "rank": 141,
+    "ticker": "BCE",
+    "name": "BCE, Inc.",
+    "marketCap": 21541346372.7
+  },
+  {
+    "rank": 142,
+    "ticker": "CMS",
+    "name": "CMS Energy Corporation",
+    "marketCap": 21504259518.24
+  },
+  {
+    "rank": 143,
+    "ticker": "CHD",
+    "name": "Church & Dwight Co., Inc.",
+    "marketCap": 21120873856.5
+  },
+  {
+    "rank": 144,
+    "ticker": "CPAY",
+    "name": "Corpay, Inc.",
+    "marketCap": 20951287436.1
+  },
+  {
+    "rank": 145,
+    "ticker": "BAP",
+    "name": "Credicorp LTD",
+    "marketCap": 20925723140.22
+  },
+  {
+    "rank": 146,
+    "ticker": "CASY",
+    "name": "Casey's General Stores Inc",
+    "marketCap": 20358228743.02
+  },
+  {
+    "rank": 147,
+    "ticker": "BIIB",
+    "name": "Biogen Inc. Common Stock",
+    "marketCap": 20140447327.260002
+  },
+  {
+    "rank": 148,
+    "ticker": "CIEN",
+    "name": "Ciena Corporation",
+    "marketCap": 20060744857.11
+  },
+  {
+    "rank": 149,
+    "ticker": "BNT",
+    "name": "Brookfield Wealth Solutions Ltd.",
+    "marketCap": 19453948108.36
+  },
+  {
+    "rank": 150,
+    "ticker": "AS",
+    "name": "Amer Sports, Inc.",
+    "marketCap": 19121623458.079998
+  },
+  {
+    "rank": 151,
+    "ticker": "APTV",
+    "name": "Aptiv PLC",
+    "marketCap": 18775250904.42
+  },
+  {
+    "rank": 152,
+    "ticker": "AMCR",
+    "name": "Amcor plc Ordinary Shares",
+    "marketCap": 18582297525.050003
+  },
+  {
+    "rank": 153,
+    "ticker": "CTRA",
+    "name": "Coterra Energy Inc.",
+    "marketCap": 18185625532.76
+  },
+  {
+    "rank": 154,
+    "ticker": "CRBG",
+    "name": "Corebridge Financial, Inc.",
+    "marketCap": 17845238136.2
+  },
+  {
+    "rank": 155,
+    "ticker": "CNC",
+    "name": "Centene Corporation",
+    "marketCap": 17120896380
+  },
+  {
+    "rank": 156,
+    "ticker": "ACM",
+    "name": "Aecom",
+    "marketCap": 17118658554.25
+  },
+  {
+    "rank": 157,
+    "ticker": "COHR",
+    "name": "Coherent Corp.",
+    "marketCap": 16669627663.259998
+  },
+  {
+    "rank": 158,
+    "ticker": "BURL",
+    "name": "BURLINGTON STORES, INC.",
+    "marketCap": 16621073018.880001
+  },
+  {
+    "rank": 159,
+    "ticker": "BWXT",
+    "name": "BWX Technologies, Inc.",
+    "marketCap": 16508440418.800001
+  },
+  {
+    "rank": 160,
+    "ticker": "BE",
+    "name": "Bloom Energy Corporation",
+    "marketCap": 16454737250.399998
+  },
+  {
+    "rank": 161,
+    "ticker": "CHWY",
+    "name": "Chewy, Inc.",
+    "marketCap": 16451759772.239998
+  },
+  {
+    "rank": 162,
+    "ticker": "BG",
+    "name": "Bunge Global SA",
+    "marketCap": 16399083615.46
+  },
+  {
+    "rank": 163,
+    "ticker": "BBY",
+    "name": "Best Buy Company, Inc.",
+    "marketCap": 15999211329.750002
+  },
+  {
+    "rank": 164,
+    "ticker": "BSY",
+    "name": "Bentley Systems, Incorporated Class B Common Stock",
+    "marketCap": 15895079342.550001
+  },
+  {
+    "rank": 165,
+    "ticker": "CHRW",
+    "name": "C.H. Robinson Worldwide, Inc.",
+    "marketCap": 15565596063.220001
+  },
+  {
+    "rank": 166,
+    "ticker": "BIP",
+    "name": "Brookfield Infrastructure Partners L.P. Limited Partnership Units",
+    "marketCap": 15350528443.679998
+  },
+  {
+    "rank": 167,
+    "ticker": "CLX",
+    "name": "Clorox Company",
+    "marketCap": 15214068007.460001
+  },
+  {
+    "rank": 168,
+    "ticker": "BCH",
+    "name": "Banco de ChileAmerican Depositary Shares (Each representing 200 shares of Common Stock)",
+    "marketCap": 15152562180
+  },
+  {
+    "rank": 169,
+    "ticker": "AVAV",
+    "name": "AeroVironment, Inc.",
+    "marketCap": 15039580748.4
+  },
+  {
+    "rank": 170,
+    "ticker": "ALLE",
+    "name": "Allegion Public Limited Company",
+    "marketCap": 15023999465.199999
+  },
+  {
+    "rank": 171,
+    "ticker": "CF",
+    "name": "CF Industries Holding, Inc.",
+    "marketCap": 14922568344.15
+  },
+  {
+    "rank": 172,
+    "ticker": "ARCC",
+    "name": "Ares Capital Corporation",
+    "marketCap": 14431817495.04
+  },
+  {
+    "rank": 173,
+    "ticker": "AGI",
+    "name": "Alamos Gold Inc. Class A Common Shares",
+    "marketCap": 14370266296.2
+  },
+  {
+    "rank": 174,
+    "ticker": "ARE",
+    "name": "Alexandria Real Estate Equities, Inc.",
+    "marketCap": 14314959455.55
+  },
+  {
+    "rank": 175,
+    "ticker": "APG",
+    "name": "APi Group Corporation",
+    "marketCap": 14227544798.17
+  },
+  {
+    "rank": 176,
+    "ticker": "CELH",
+    "name": "Celsius Holdings, Inc. Common Stock",
+    "marketCap": 14020836841.62
+  },
+  {
+    "rank": 177,
+    "ticker": "CSL",
+    "name": "Carlisle Companies, Inc.",
+    "marketCap": 14001720727.199999
+  },
+  {
+    "rank": 178,
+    "ticker": "CNH",
+    "name": "CNH INDUSTRIAL N.V.",
+    "marketCap": 13608922144.000002
+  },
+  {
+    "rank": 179,
+    "ticker": "COOP",
+    "name": "Mr. Cooper Group Inc. Common Stock",
+    "marketCap": 13583211277.939999
+  },
+  {
+    "rank": 180,
+    "ticker": "BALL",
+    "name": "Ball Corporation",
+    "marketCap": 13465927324.599998
+  },
+  {
+    "rank": 181,
+    "ticker": "COO",
+    "name": "The Cooper Companies, Inc. Common Stock",
+    "marketCap": 13429542613.55
+  },
+  {
+    "rank": 182,
+    "ticker": "ASTS",
+    "name": "AST SpaceMobile, Inc. Class A Common Stock",
+    "marketCap": 13348306810.01
+  },
+  {
+    "rank": 183,
+    "ticker": "BLDR",
+    "name": "Builders FirstSource, Inc.",
+    "marketCap": 13066647244.2
+  },
+  {
+    "rank": 184,
+    "ticker": "BF.B",
+    "name": "Brown-Forman Corporation Class B",
+    "marketCap": 12811597709.300001
+  },
+  {
+    "rank": 185,
+    "ticker": "BF.A",
+    "name": "Brown-Forman Corporation Class A",
+    "marketCap": 12641406743.42
+  },
+  {
+    "rank": 186,
+    "ticker": "CNA",
+    "name": "CNA Financial Corporation",
+    "marketCap": 12569701129.56
+  },
+  {
+    "rank": 187,
+    "ticker": "AVY",
+    "name": "Avery Dennison Corp.",
+    "marketCap": 12535541235.5
+  },
+  {
+    "rank": 188,
+    "ticker": "AEG",
+    "name": "Aegon Ltd.",
+    "marketCap": 12514586461.050001
+  },
+  {
+    "rank": 189,
+    "ticker": "CRS",
+    "name": "Carpenter Technology Corp",
+    "marketCap": 12504896330.75
+  },
+  {
+    "rank": 190,
+    "ticker": "CIB",
+    "name": "Grupo Cibest S.A. American Depositary Shares (each representing four (4) Preferred Shares)",
+    "marketCap": 12486919027.5
+  },
+  {
+    "rank": 191,
+    "ticker": "CLH",
+    "name": "Clean Harbors, Inc",
+    "marketCap": 12440083193.65
+  },
+  {
+    "rank": 192,
+    "ticker": "BSAC",
+    "name": "Banco Santander-Chile",
+    "marketCap": 12413888602.95
+  },
+  {
+    "rank": 193,
+    "ticker": "ALLY",
+    "name": "Ally Financial Inc.",
+    "marketCap": 12361570524.96
+  },
+  {
+    "rank": 194,
+    "ticker": "BJ",
+    "name": "BJs Wholesale Club Holdings, Inc. Common Stock",
+    "marketCap": 12266239491.8
+  },
+  {
+    "rank": 195,
+    "ticker": "BAH",
+    "name": "Booz Allen Hamilton Holding Corporation",
+    "marketCap": 12211479808.88
+  },
+  {
+    "rank": 196,
+    "ticker": "AFG",
+    "name": "American Financial Group, Inc.",
+    "marketCap": 12112214129.960001
+  },
+  {
+    "rank": 197,
+    "ticker": "AMH",
+    "name": "AMERICAN HOMES 4 RENT",
+    "marketCap": 12099096041.06
+  },
+  {
+    "rank": 198,
+    "ticker": "BEN",
+    "name": "Franklin Resources, Inc.",
+    "marketCap": 12081678703.25
+  },
+  {
+    "rank": 199,
+    "ticker": "CDE",
+    "name": "Coeur Mining, Inc.",
+    "marketCap": 11851677397.36
+  },
+  {
+    "rank": 200,
+    "ticker": "BXP",
+    "name": "BXP, Inc.",
+    "marketCap": 11849656032.3
+  },
+  {
+    "rank": 201,
+    "ticker": "ASND",
+    "name": "Ascendis Pharma A/S American Depositary Shares",
+    "marketCap": 11625840791.92
+  },
+  {
+    "rank": 202,
+    "ticker": "CPT",
+    "name": "Camden Property Trust",
+    "marketCap": 11433241789
+  },
+  {
+    "rank": 203,
+    "ticker": "ATI",
+    "name": "ATI Inc.",
+    "marketCap": 11413878850.92
+  },
+  {
+    "rank": 204,
+    "ticker": "CCK",
+    "name": "Crown Holdings Inc.",
+    "marketCap": 11296578909.58
+  },
+  {
+    "rank": 205,
+    "ticker": "BAX",
+    "name": "Baxter International Inc.",
+    "marketCap": 11289390920.78
+  },
+  {
+    "rank": 206,
+    "ticker": "CART",
+    "name": "Maplebear Inc. Common Stock",
+    "marketCap": 11148707755.68
+  },
+  {
+    "rank": 207,
+    "ticker": "BLD",
+    "name": "TopBuild Corp. Common Stock",
+    "marketCap": 11070378892.02
+  },
+  {
+    "rank": 208,
+    "ticker": "AKAM",
+    "name": "Akamai Technologies Inc",
+    "marketCap": 10904469404.4
+  },
+  {
+    "rank": 209,
+    "ticker": "AIZ",
+    "name": "Assurant, Inc.",
+    "marketCap": 10880015075.82
+  },
+  {
+    "rank": 210,
+    "ticker": "BILI",
+    "name": "Bilibili Inc. American Depositary Shares",
+    "marketCap": 10783411857.09
+  },
+  {
+    "rank": 211,
+    "ticker": "CACI",
+    "name": "CACI INTERNATIONAL CLA",
+    "marketCap": 10679967399.64
+  },
+  {
+    "rank": 212,
+    "ticker": "BZ",
+    "name": "KANZHUN LIMITED American Depository Shares",
+    "marketCap": 10623819876
+  },
+  {
+    "rank": 213,
+    "ticker": "AR",
+    "name": "ANTERO RESOURCES CORPORATION",
+    "marketCap": 10537636410
+  },
+  {
+    "rank": 214,
+    "ticker": "CR",
+    "name": "Crane Company",
+    "marketCap": 10475251285.2
+  },
+  {
+    "rank": 215,
+    "ticker": "AYI",
+    "name": "Acuity Inc.",
+    "marketCap": 10377565908.48
+  },
+  {
+    "rank": 216,
+    "ticker": "ALB",
+    "name": "Albemarle Corporation",
+    "marketCap": 10367866309.199999
+  },
+  {
+    "rank": 217,
+    "ticker": "AGNC",
+    "name": "AGNC Investment Corp. Common Stock",
+    "marketCap": 10364693350.8
+  },
+  {
+    "rank": 218,
+    "ticker": "BMRN",
+    "name": "BioMarin Pharmaceuticals Inc",
+    "marketCap": 10339986263.85
+  },
+  {
+    "rank": 219,
+    "ticker": "ASR",
+    "name": "Grupo Aeroportuario del Sureste, S.A. de C.V. American Depositary Shares",
+    "marketCap": 10195800000
+  },
+  {
+    "rank": 220,
+    "ticker": "AUR",
+    "name": "Aurora Innovation, Inc. Class A Common Stock",
+    "marketCap": 10158554179.38
+  },
+  {
+    "rank": 221,
+    "ticker": "AOS",
+    "name": "A.O. Smith Corporation",
+    "marketCap": 10152388071
+  },
+  {
+    "rank": 222,
+    "ticker": "ARMK",
+    "name": "ARAMARK",
+    "marketCap": 10098731885.36
+  },
+  {
+    "rank": 223,
+    "ticker": "CNM",
+    "name": "Core & Main, Inc.",
+    "marketCap": 10072178243.22
+  },
+  {
+    "rank": 224,
+    "ticker": "COKE",
+    "name": "Coca-Cola Consolidated, Inc. Common Stock",
+    "marketCap": 10025764577.95
+  },
+  {
+    "rank": 225,
+    "ticker": "APPF",
+    "name": "AppFolio, Inc. Class A",
+    "marketCap": 9986143888.839998
+  },
+  {
+    "rank": 226,
+    "ticker": "AIT",
+    "name": "Applied Industrial Technologies, Inc.",
+    "marketCap": 9869262491.53
+  },
+  {
+    "rank": 227,
+    "ticker": "ACI",
+    "name": "Albertsons Companies, Inc.",
+    "marketCap": 9830903539.08
+  },
+  {
+    "rank": 228,
+    "ticker": "ALV",
+    "name": "Autoliv, Inc.",
+    "marketCap": 9615495245.85
+  },
+  {
+    "rank": 229,
+    "ticker": "BBIO",
+    "name": "BridgeBio Pharma, Inc. Common Stock",
+    "marketCap": 9567983625.199999
+  },
+  {
+    "rank": 230,
+    "ticker": "CPB",
+    "name": "The Campbell's Company Common Stock",
+    "marketCap": 9559600202
+  },
+  {
+    "rank": 231,
+    "ticker": "BWA",
+    "name": "BorgWarner Inc.",
+    "marketCap": 9529942259.039999
+  },
+  {
+    "rank": 232,
+    "ticker": "AES",
+    "name": "AES Corporation",
+    "marketCap": 9427536227.36
+  },
+  {
+    "rank": 233,
+    "ticker": "AM",
+    "name": "Antero Midstream Corporation Common Stock",
+    "marketCap": 9367287380
+  },
+  {
+    "rank": 234,
+    "ticker": "CUBE",
+    "name": "CubeSmart",
+    "marketCap": 9237708990.25
+  },
+  {
+    "rank": 235,
+    "ticker": "BLSH",
+    "name": "Bullish",
+    "marketCap": 9149640224.01
+  },
+  {
+    "rank": 236,
+    "ticker": "ALGN",
+    "name": "Align Technology Inc",
+    "marketCap": 9147054777.92
+  },
+  {
+    "rank": 237,
+    "ticker": "CAE",
+    "name": "CAE INC",
+    "marketCap": 9140703571.95
+  },
+  {
+    "rank": 238,
+    "ticker": "CMA",
+    "name": "Comerica Incorporated",
+    "marketCap": 8922238127.4
+  },
+  {
+    "rank": 239,
+    "ticker": "CORT",
+    "name": "Corcept Therapeutics Inc.",
+    "marketCap": 8837526911.23
+  },
+  {
+    "rank": 240,
+    "ticker": "APA",
+    "name": "APA Corporation Common Stock",
+    "marketCap": 8833747697.4
+  },
+  {
+    "rank": 241,
+    "ticker": "BMNR",
+    "name": "BitMine Immersion Technologies, Inc.",
+    "marketCap": 8761595975
+  },
+  {
+    "rank": 242,
+    "ticker": "ATR",
+    "name": "AptarGroup, Inc.",
+    "marketCap": 8715334255.38
+  },
+  {
+    "rank": 243,
+    "ticker": "CAG",
+    "name": "Conagra Brands, Inc.",
+    "marketCap": 8702652029.58
+  },
+  {
+    "rank": 244,
+    "ticker": "BPOP",
+    "name": "Popular Inc",
+    "marketCap": 8653307345.76
+  },
+  {
+    "rank": 245,
+    "ticker": "AA",
+    "name": "Alcoa Corporation",
+    "marketCap": 8469100589.33
+  },
+  {
+    "rank": 246,
+    "ticker": "BRX",
+    "name": "BRIXMOR PROPERTY GROUP INC.",
+    "marketCap": 8411615414.16
+  },
+  {
+    "rank": 247,
+    "ticker": "AWI",
+    "name": "Armstrong World Industries, Inc.",
+    "marketCap": 8391251241.36
+  },
+  {
+    "rank": 248,
+    "ticker": "CFR",
+    "name": "Cullen/Frost Bankers Inc.",
+    "marketCap": 8290242601.92
+  },
+  {
+    "rank": 249,
+    "ticker": "BIRK",
+    "name": "Birkenstock Holding plc",
+    "marketCap": 8259220974.959999
+  },
+  {
+    "rank": 250,
+    "ticker": "CAI",
+    "name": "Caris Life Sciences, Inc. Common Stock",
+    "marketCap": 8210205009.51
+  },
+  {
+    "rank": 251,
+    "ticker": "AN",
+    "name": "AutoNation, Inc.",
+    "marketCap": 8207091660.22
+  },
+  {
+    "rank": 252,
+    "ticker": "AGCO",
+    "name": "AGCO Corporation",
+    "marketCap": 8191808520.06
+  },
+  {
+    "rank": 253,
+    "ticker": "AVTR",
+    "name": "Avantor, Inc.",
+    "marketCap": 8071785912
+  },
+  {
+    "rank": 254,
+    "ticker": "CIGI",
+    "name": "Colliers International Group Inc. Subordinate Voting Shares",
+    "marketCap": 7980123641
+  },
+  {
+    "rank": 255,
+    "ticker": "CBSH",
+    "name": "Commerce Bancshares Inc",
+    "marketCap": 7974869817.6
+  },
+  {
+    "rank": 256,
+    "ticker": "CHYM",
+    "name": "Chime Financial, Inc. Class A Common Stock",
+    "marketCap": 7895142213.48
+  },
+  {
+    "rank": 257,
+    "ticker": "ADC",
+    "name": "Agree Realty Corporation",
+    "marketCap": 7886064361.9800005
+  },
+  {
+    "rank": 258,
+    "ticker": "COLB",
+    "name": "Columbia Banking Systems Inc",
+    "marketCap": 7796402905.299999
+  },
+  {
+    "rank": 259,
+    "ticker": "CTRE",
+    "name": "CareTrust REIT, Inc",
+    "marketCap": 7751572736.4
+  },
+  {
+    "rank": 260,
+    "ticker": "CGNX",
+    "name": "Cognex Corp",
+    "marketCap": 7688095667.9
+  },
+  {
+    "rank": 261,
+    "ticker": "CIG.C",
+    "name": "Companhia Energetica De Minas Gerais-CEMIG",
+    "marketCap": 7651751900.648399
+  },
+  {
+    "rank": 262,
+    "ticker": "AXS",
+    "name": "Axis Capital Holders Limited",
+    "marketCap": 7502357148.51
+  },
+  {
+    "rank": 263,
+    "ticker": "BULL",
+    "name": "Webull Corporation Class A Ordinary Shares",
+    "marketCap": 7496572564.36
+  },
+  {
+    "rank": 264,
+    "ticker": "AAL",
+    "name": "American Airlines Group Inc.",
+    "marketCap": 7462663965.51
+  },
+  {
+    "rank": 265,
+    "ticker": "AAON",
+    "name": "Aaon Inc",
+    "marketCap": 7420106822.76
+  },
+  {
+    "rank": 266,
+    "ticker": "BEP",
+    "name": "Brookfield Renewable Partners L.P.",
+    "marketCap": 7356937907.52
+  },
+  {
+    "rank": 267,
+    "ticker": "BIO",
+    "name": "Bio-Rad Laboratories, Inc.Class A",
+    "marketCap": 7343677557.76
+  },
+  {
+    "rank": 268,
+    "ticker": "CRL",
+    "name": "Charles River Laboratories International, Inc.",
+    "marketCap": 7311258283.68
+  },
+  {
+    "rank": 269,
+    "ticker": "CAVA",
+    "name": "CAVA Group, Inc.",
+    "marketCap": 7259898096.9
+  },
+  {
+    "rank": 270,
+    "ticker": "ADT",
+    "name": "ADT Inc.",
+    "marketCap": 7224910350.3
+  },
+  {
+    "rank": 271,
+    "ticker": "BOKF",
+    "name": "BOK Financial Corp",
+    "marketCap": 7177876185.4800005
+  },
+  {
+    "rank": 272,
+    "ticker": "AMKR",
+    "name": "Amkor Technology Inc",
+    "marketCap": 7173327171.375
+  },
+  {
+    "rank": 273,
+    "ticker": "ALSN",
+    "name": "ALLISON TRANSMISSION HOLDINGS, INC.",
+    "marketCap": 7164280740.960001
+  },
+  {
+    "rank": 274,
+    "ticker": "AHR",
+    "name": "American Healthcare REIT, Inc.",
+    "marketCap": 7105444848.599999
+  },
+  {
+    "rank": 275,
+    "ticker": "AL",
+    "name": "Air Lease Corporation",
+    "marketCap": 7098197182.32
+  },
+  {
+    "rank": 276,
+    "ticker": "CADE",
+    "name": "Cadence Bank",
+    "marketCap": 7001417661.28
+  },
+  {
+    "rank": 277,
+    "ticker": "CEF",
+    "name": "Sprott Physical Gold and Silver Trust",
+    "marketCap": 6949201443.6
+  },
+  {
+    "rank": 278,
+    "ticker": "BYD",
+    "name": "Boyd Gaming Corporation",
+    "marketCap": 6891030405.82
+  },
+  {
+    "rank": 279,
+    "ticker": "CFLT",
+    "name": "Confluent, Inc. Class A Common Stock",
+    "marketCap": 6822486174.38
+  },
+  {
+    "rank": 280,
+    "ticker": "CHDN",
+    "name": "Churchill Downs Inc",
+    "marketCap": 6797851096.099999
+  },
+  {
+    "rank": 281,
+    "ticker": "AMG",
+    "name": "Affiliated Managers Group",
+    "marketCap": 6791619539.5199995
+  },
+  {
+    "rank": 282,
+    "ticker": "BROS",
+    "name": "Dutch Bros Inc.",
+    "marketCap": 6741591080.400001
+  },
+  {
+    "rank": 283,
+    "ticker": "CHE",
+    "name": "Chemed Corporation",
+    "marketCap": 6735474579.85
+  },
+  {
+    "rank": 284,
+    "ticker": "CMC",
+    "name": "Commercial Metals Company",
+    "marketCap": 6568083500.4
+  },
+  {
+    "rank": 285,
+    "ticker": "BTG",
+    "name": "B2Gold Corp.",
+    "marketCap": 6509092025.28
+  },
+  {
+    "rank": 286,
+    "ticker": "CRUS",
+    "name": "Cirrus Logic Inc",
+    "marketCap": 6475040932.92
+  },
+  {
+    "rank": 287,
+    "ticker": "ABVX",
+    "name": "Abivax SA American Depositary Shares",
+    "marketCap": 6414619057.08
+  },
+  {
+    "rank": 288,
+    "ticker": "AEIS",
+    "name": "Advanced Energy Industries Inc",
+    "marketCap": 6278877192.56
+  },
+  {
+    "rank": 289,
+    "ticker": "ARW",
+    "name": "Arrow Electronics, Inc.",
+    "marketCap": 6227586168.6
+  },
+  {
+    "rank": 290,
+    "ticker": "BXSL",
+    "name": "Blackstone Secured Lending Fund",
+    "marketCap": 6213988346.12
+  },
+  {
+    "rank": 291,
+    "ticker": "BEPC",
+    "name": "Brookfield Renewable Corporation Class A Exchangeable Subordinate Voting Shares",
+    "marketCap": 6207158822.400001
+  },
+  {
+    "rank": 292,
+    "ticker": "BFAM",
+    "name": "BRIGHT HORIZONS FAMILY SOLUTIONS INC.",
+    "marketCap": 6171733596.08
+  },
+  {
+    "rank": 293,
+    "ticker": "CLF",
+    "name": "Cleveland-Cliffs Inc.",
+    "marketCap": 6119380564.12
+  },
+  {
+    "rank": 294,
+    "ticker": "AXTA",
+    "name": "Axalta Coating Systems Ltd.",
+    "marketCap": 6083567873.5
+  },
+  {
+    "rank": 295,
+    "ticker": "CCCS",
+    "name": "CCC Intelligent Solutions Holdings Inc. Common Stock",
+    "marketCap": 6063187755.38
+  },
+  {
+    "rank": 296,
+    "ticker": "ACHR",
+    "name": "Archer Aviation Inc.",
+    "marketCap": 5985843980.48
+  },
+  {
+    "rank": 297,
+    "ticker": "CHRD",
+    "name": "Chord Energy Corporation Common Stock",
+    "marketCap": 5985189297.53
+  },
+  {
+    "rank": 298,
+    "ticker": "ABTC",
+    "name": "American Bitcoin Corp. Class A Common Stock",
+    "marketCap": 5978509961.2
+  },
+  {
+    "rank": 299,
+    "ticker": "CIG",
+    "name": "Companhia Energetica De Minas Gerais-CEMIG",
+    "marketCap": 5950218316.64
+  },
+  {
+    "rank": 300,
+    "ticker": "AG",
+    "name": "FIRST MAJESTIC SILVER CORP",
+    "marketCap": 5931013061.22
+  },
+  {
+    "rank": 301,
+    "ticker": "BVN",
+    "name": "Compania de Minas Buenaventura S.A.",
+    "marketCap": 5902654789.08
+  },
+  {
+    "rank": 302,
+    "ticker": "ALK",
+    "name": "Alaska Air Group, Inc.",
+    "marketCap": 5866995746.88
+  },
+  {
+    "rank": 303,
+    "ticker": "APLD",
+    "name": "Applied Digital Corporation Common Stock",
+    "marketCap": 5846834489.99
+  },
+  {
+    "rank": 304,
+    "ticker": "AXSM",
+    "name": "Axsome Therapeutics, Inc",
+    "marketCap": 5826497622.12
+  },
+  {
+    "rank": 305,
+    "ticker": "CRK",
+    "name": "Comstock Resources, Inc.",
+    "marketCap": 5776347022.2
+  },
+  {
+    "rank": 306,
+    "ticker": "ACT",
+    "name": "Enact Holdings, Inc. Common Stock",
+    "marketCap": 5767469351
+  },
+  {
+    "rank": 307,
+    "ticker": "CAR",
+    "name": "Avis Budget Group, Inc.",
+    "marketCap": 5675656390.08
+  },
+  {
+    "rank": 308,
+    "ticker": "CRSP",
+    "name": "CRISPR Therapeutics AG",
+    "marketCap": 5608912586.41
+  },
+  {
+    "rank": 309,
+    "ticker": "BILL",
+    "name": "BILL Holdings, Inc.",
+    "marketCap": 5506238143.98
+  },
+  {
+    "rank": 310,
+    "ticker": "ALGM",
+    "name": "Allegro MicroSystems, Inc. Common Stock",
+    "marketCap": 5497552928.190001
+  },
+  {
+    "rank": 311,
+    "ticker": "BBWI",
+    "name": "Bath & Body Works, Inc.",
+    "marketCap": 5496960776.16
+  },
+  {
+    "rank": 312,
+    "ticker": "AMTM",
+    "name": "Amentum Holdings, Inc.",
+    "marketCap": 5491927517.65
+  },
+  {
+    "rank": 313,
+    "ticker": "ATGE",
+    "name": "Adtalem Global Education Inc. Common Shares",
+    "marketCap": 5471740252.16
+  },
+  {
+    "rank": 314,
+    "ticker": "ACIW",
+    "name": "ACI Worldwide, Inc.",
+    "marketCap": 5392817630.46
+  },
+  {
+    "rank": 315,
+    "ticker": "ATAT",
+    "name": "Atour Lifestyle Holdings Limited American Depositary Shares",
+    "marketCap": 5217901509.759999
+  },
+  {
+    "rank": 316,
+    "ticker": "BMI",
+    "name": "Badger Meter, Inc.",
+    "marketCap": 5198003043.12
+  },
+  {
+    "rank": 317,
+    "ticker": "BOOT",
+    "name": "Boot Barn Holdings, Inc.",
+    "marketCap": 5169400299.14
+  },
+  {
+    "rank": 318,
+    "ticker": "CACC",
+    "name": "Credit Acceptance Corp",
+    "marketCap": 5152018062.059999
+  },
+  {
+    "rank": 319,
+    "ticker": "CORZ",
+    "name": "Core Scientific, Inc. Common Stock",
+    "marketCap": 5146132247.700001
+  },
+  {
+    "rank": 320,
+    "ticker": "ABCB",
+    "name": "Ameris Bancorp",
+    "marketCap": 5134411441.28
+  },
+  {
+    "rank": 321,
+    "ticker": "BLCO",
+    "name": "Bausch + Lomb Corporation",
+    "marketCap": 5131053955
+  },
+  {
+    "rank": 322,
+    "ticker": "AUB",
+    "name": "Atlantic Union Bankshares Corporation",
+    "marketCap": 5126122144.7699995
+  },
+  {
+    "rank": 323,
+    "ticker": "CHH",
+    "name": "Choice Hotels Intnl.",
+    "marketCap": 5064073534.3
+  },
+  {
+    "rank": 324,
+    "ticker": "AX",
+    "name": "Axos Financial, Inc. Common Stock",
+    "marketCap": 4949252251.35
+  },
+  {
+    "rank": 325,
+    "ticker": "BDC",
+    "name": "Belden Inc.",
+    "marketCap": 4917217970.07
+  },
+  {
+    "rank": 326,
+    "ticker": "BIPC",
+    "name": "Brookfield Infrastructure Corporation Class A Exchangeable Subordinate Voting Shares",
+    "marketCap": 4877537865.53
+  },
+  {
+    "rank": 327,
+    "ticker": "BCO",
+    "name": "The Brink's Company",
+    "marketCap": 4874487462
+  },
+  {
+    "rank": 328,
+    "ticker": "BCPC",
+    "name": "Balchem Corporation",
+    "marketCap": 4870875365.440001
+  },
+  {
+    "rank": 329,
+    "ticker": "BTSG",
+    "name": "BrightSpring Health Services, Inc. Common Stock",
+    "marketCap": 4852102701.27
+  },
+  {
+    "rank": 330,
+    "ticker": "CPA",
+    "name": "Copa Holdings, S.A.",
+    "marketCap": 4838627120.849999
+  },
+  {
+    "rank": 331,
+    "ticker": "CAMT",
+    "name": "Camtek Ltd",
+    "marketCap": 4781846820.349999
+  },
+  {
+    "rank": 332,
+    "ticker": "CALM",
+    "name": "Cal-Maine Foods Inc",
+    "marketCap": 4773606661.110001
+  },
+  {
+    "rank": 333,
+    "ticker": "CUZ",
+    "name": "Cousins Properties Inc.",
+    "marketCap": 4761883047.6
+  },
+  {
+    "rank": 334,
+    "ticker": "CRC",
+    "name": "California Resources Corporation",
+    "marketCap": 4723475847.48
+  },
+  {
+    "rank": 335,
+    "ticker": "BRKR",
+    "name": "Bruker Corporation",
+    "marketCap": 4709369089.599999
+  },
+  {
+    "rank": 336,
+    "ticker": "ABG",
+    "name": "Asbury Automotive Group, Inc.",
+    "marketCap": 4698892482
+  },
+  {
+    "rank": 337,
+    "ticker": "BOX",
+    "name": "BOX, INC.",
+    "marketCap": 4689953799.179999
+  },
+  {
+    "rank": 338,
+    "ticker": "AROC",
+    "name": "Archrock Inc",
+    "marketCap": 4659268027.5
+  },
+  {
+    "rank": 339,
+    "ticker": "BRBR",
+    "name": "BellRing Brands, Inc.",
+    "marketCap": 4636033272
+  },
+  {
+    "rank": 340,
+    "ticker": "ALKS",
+    "name": "Alkermes Inc. plc",
+    "marketCap": 4604024834.31
+  },
+  {
+    "rank": 341,
+    "ticker": "CNX",
+    "name": "CNX Resources Corporation",
+    "marketCap": 4557920188.799999
+  },
+  {
+    "rank": 342,
+    "ticker": "CLBT",
+    "name": "Cellebrite DI Ltd. Class A Ordinary Shares",
+    "marketCap": 4554459444.78
+  },
+  {
+    "rank": 343,
+    "ticker": "ACA",
+    "name": "Arcosa, Inc. Common Stock",
+    "marketCap": 4542539193.72
+  },
+  {
+    "rank": 344,
+    "ticker": "ARWR",
+    "name": "Arrowhead Research Corporation",
+    "marketCap": 4534847640
+  },
+  {
+    "rank": 345,
+    "ticker": "CVCO",
+    "name": "Cavco Industries Inc.",
+    "marketCap": 4532615378.09
+  },
+  {
+    "rank": 346,
+    "ticker": "CIFR",
+    "name": "Cipher Mining Inc. Common Stock",
+    "marketCap": 4510990500.29
+  },
+  {
+    "rank": 347,
+    "ticker": "BGC",
+    "name": "BGC Group, Inc. Class A Common Stock",
+    "marketCap": 4491763476.150001
+  },
+  {
+    "rank": 348,
+    "ticker": "CE",
+    "name": "Celanese Corporation Common Stock",
+    "marketCap": 4465562068.62
+  },
+  {
+    "rank": 349,
+    "ticker": "CROX",
+    "name": "Crocs, Inc.",
+    "marketCap": 4463876669.34
+  },
+  {
+    "rank": 350,
+    "ticker": "BKH",
+    "name": "Black Hills Corporation",
+    "marketCap": 4437692460.5
+  },
+  {
+    "rank": 351,
+    "ticker": "COMP",
+    "name": "Compass, Inc.",
+    "marketCap": 4432453891.5
+  },
+  {
+    "rank": 352,
+    "ticker": "ACLX",
+    "name": "Arcellx, Inc. Common Stock",
+    "marketCap": 4422848232
+  },
+  {
+    "rank": 353,
+    "ticker": "BANF",
+    "name": "Bancfirst Corp",
+    "marketCap": 4356524654.9
+  },
+  {
+    "rank": 354,
+    "ticker": "AVT",
+    "name": "Avnet, Inc.",
+    "marketCap": 4335054871.42
+  },
+  {
+    "rank": 355,
+    "ticker": "CRNX",
+    "name": "Crinetics Pharmaceuticals, Inc.",
+    "marketCap": 4323619884.54
+  },
+  {
+    "rank": 356,
+    "ticker": "ASB",
+    "name": "Associated Banc-Corp",
+    "marketCap": 4321999661.8
+  },
+  {
+    "rank": 357,
+    "ticker": "CNR",
+    "name": "Core Natural Resources, Inc.",
+    "marketCap": 4261841773.2
+  },
+  {
+    "rank": 358,
+    "ticker": "AB",
+    "name": "AllianceBernstein Holding, L.P.",
+    "marketCap": 4189363480.5
+  },
+  {
+    "rank": 359,
+    "ticker": "BC",
+    "name": "Brunswick Corporation",
+    "marketCap": 4155692188
+  },
+  {
+    "rank": 360,
+    "ticker": "AD",
+    "name": "Array Digital Infrastructure, Inc.",
+    "marketCap": 4143604995.27
+  },
+  {
+    "rank": 361,
+    "ticker": "AQN",
+    "name": "Algonquin Power & Utilities Corp",
+    "marketCap": 4139654755.39
+  },
+  {
+    "rank": 362,
+    "ticker": "CBT",
+    "name": "Cabot Corporation",
+    "marketCap": 4108915881.52
+  },
+  {
+    "rank": 363,
+    "ticker": "CSW",
+    "name": "CSW Industrials, Inc.",
+    "marketCap": 4079135156.36
+  },
+  {
+    "rank": 364,
+    "ticker": "ANF",
+    "name": "Abercrombie & Fitch Co.",
+    "marketCap": 4042826668.02
+  },
+  {
+    "rank": 365,
+    "ticker": "CRVL",
+    "name": "Corvel Corp",
+    "marketCap": 4035234502.7200003
+  },
+  {
+    "rank": 366,
+    "ticker": "AGO",
+    "name": "Assured Guaranty, LTD",
+    "marketCap": 4028765988.3500004
+  },
+  {
+    "rank": 367,
+    "ticker": "CALX",
+    "name": "CALIX, INC.",
+    "marketCap": 4020766972.15
+  },
+  {
+    "rank": 368,
+    "ticker": "AVAL",
+    "name": "GRUPO AVAL ACCIONES Y VALORES S.A.",
+    "marketCap": 3944732882.6
+  },
+  {
+    "rank": 369,
+    "ticker": "CNO",
+    "name": "CNO Financial Group, Inc.",
+    "marketCap": 3884062595.38
+  },
+  {
+    "rank": 370,
+    "ticker": "ALE",
+    "name": "ALLETE, Inc.",
+    "marketCap": 3846003572.2799997
+  },
+  {
+    "rank": 371,
+    "ticker": "AKRO",
+    "name": "Akero Therapeutics, Inc. Common Stock",
+    "marketCap": 3818673666.5
+  },
+  {
+    "rank": 372,
+    "ticker": "AKO.B",
+    "name": "Embotelladora Andina S.A. Series B",
+    "marketCap": 3757096481.105
+  },
+  {
+    "rank": 373,
+    "ticker": "ADMA",
+    "name": "ADMA Biologics, Inc.",
+    "marketCap": 3725025523.5899997
+  },
+  {
+    "rank": 374,
+    "ticker": "CARG",
+    "name": "CarGurus, Inc. Class A Common Stock",
+    "marketCap": 3722257087.5
+  },
+  {
+    "rank": 375,
+    "ticker": "ATMU",
+    "name": "Atmus Filtration Technologies Inc.",
+    "marketCap": 3697660754.83
+  },
+  {
+    "rank": 376,
+    "ticker": "AGX",
+    "name": "Argan, Inc",
+    "marketCap": 3683961399.7500005
+  },
+  {
+    "rank": 377,
+    "ticker": "AAP",
+    "name": "ADVANCE AUTO PARTS INC",
+    "marketCap": 3659081767
+  },
+  {
+    "rank": 378,
+    "ticker": "CVI",
+    "name": "CVR ENERGY, INC.",
+    "marketCap": 3650266049.69
+  },
+  {
+    "rank": 379,
+    "ticker": "BRC",
+    "name": "Brady Corporation",
+    "marketCap": 3648877986
+  },
+  {
+    "rank": 380,
+    "ticker": "CLSK",
+    "name": "CLEANSPARK INC",
+    "marketCap": 3642840630.7200003
+  },
+  {
+    "rank": 381,
+    "ticker": "AMBA",
+    "name": "Ambarella, Inc. Ordinary Shares",
+    "marketCap": 3555140419.68
+  },
+  {
+    "rank": 382,
+    "ticker": "ACAD",
+    "name": "Acadia Pharmaceuticals Inc.",
+    "marketCap": 3551392231
+  },
+  {
+    "rank": 383,
+    "ticker": "BRZE",
+    "name": "Braze, Inc. Class A Common Stock",
+    "marketCap": 3513819218.14
+  },
+  {
+    "rank": 384,
+    "ticker": "COTY",
+    "name": "COTY INC",
+    "marketCap": 3497902857.77
+  },
+  {
+    "rank": 385,
+    "ticker": "BTDR",
+    "name": "Bitdeer Technologies Group Class A Ordinary Shares",
+    "marketCap": 3475597222.5
+  },
+  {
+    "rank": 386,
+    "ticker": "ALHC",
+    "name": "Alignment Healthcare, Inc. Common Stock",
+    "marketCap": 3471490740.01
+  },
+  {
+    "rank": 387,
+    "ticker": "AAPG",
+    "name": "Ascentage Pharma Group International American Depository Shares",
+    "marketCap": 3470322564.77
+  },
+  {
+    "rank": 388,
+    "ticker": "COLD",
+    "name": "Americold Realty Trust, Inc.",
+    "marketCap": 3457445085.6200004
+  },
+  {
+    "rank": 389,
+    "ticker": "ATHM",
+    "name": "Autohome Inc. American Depositary Shares, each representing four Class A Ordinary Shares",
+    "marketCap": 3439606064.4
+  },
+  {
+    "rank": 390,
+    "ticker": "BNL",
+    "name": "Broadstone Net Lease, Inc.",
+    "marketCap": 3427032555.84
+  },
+  {
+    "rank": 391,
+    "ticker": "COMM",
+    "name": "CommScope Holding Company, Inc.",
+    "marketCap": 3411306976
+  },
+  {
+    "rank": 392,
+    "ticker": "CNS",
+    "name": "Cohen & Steers Inc.",
+    "marketCap": 3386688190.6
+  },
+  {
+    "rank": 393,
+    "ticker": "AHL",
+    "name": "Aspen Insurance Holdings Limited",
+    "marketCap": 3365876113.9
+  },
+  {
+    "rank": 394,
+    "ticker": "CATY",
+    "name": "Cathay General Bancorp",
+    "marketCap": 3357249180.6200004
+  },
+  {
+    "rank": 395,
+    "ticker": "AZZ",
+    "name": "AZZ Inc.",
+    "marketCap": 3327956422.56
+  },
+  {
+    "rank": 396,
+    "ticker": "ASO",
+    "name": "Academy Sports and Outdoors, Inc.",
+    "marketCap": 3318612718.11
+  },
+  {
+    "rank": 397,
+    "ticker": "CDP",
+    "name": "COPT Defense Properties",
+    "marketCap": 3307646855.77
+  },
+  {
+    "rank": 398,
+    "ticker": "CNK",
+    "name": "Cinemark Holdings, Inc.",
+    "marketCap": 3289605118.8
+  },
+  {
+    "rank": 399,
+    "ticker": "ASAN",
+    "name": "Asana, Inc. Class A Common Stock",
+    "marketCap": 3281469788.25
+  },
+  {
+    "rank": 400,
+    "ticker": "BL",
+    "name": "BlackLine, Inc. Common Stock",
+    "marketCap": 3270152673
+  },
+  {
+    "rank": 401,
+    "ticker": "ARX",
+    "name": "Accelerant Holdings",
+    "marketCap": 3260200863.66
+  },
+  {
+    "rank": 402,
+    "ticker": "AVPT",
+    "name": "AvePoint, Inc. Class A Common Stock",
+    "marketCap": 3253076502.7999997
+  },
+  {
+    "rank": 403,
+    "ticker": "AKO.A",
+    "name": "Embotelladora Andina S.A. Series A",
+    "marketCap": 3248314782.53
+  },
+  {
+    "rank": 404,
+    "ticker": "BRSL",
+    "name": "Brightstar Lottery PLC",
+    "marketCap": 3244883910.45
+  },
+  {
+    "rank": 405,
+    "ticker": "BXMT",
+    "name": "Blackstone Mortgage Trust, Inc. (NEW)",
+    "marketCap": 3213670287.1800003
+  },
+  {
+    "rank": 406,
+    "ticker": "BHF",
+    "name": "Brighthouse Financial, Inc.",
+    "marketCap": 3185673159.54
+  },
+  {
+    "rank": 407,
+    "ticker": "CPK",
+    "name": "Chesapeake Utilities",
+    "marketCap": 3156843744.32
+  },
+  {
+    "rank": 408,
+    "ticker": "CBU",
+    "name": "Community Financial System, Inc.",
+    "marketCap": 3156624638.44
+  },
+  {
+    "rank": 409,
+    "ticker": "ARLP",
+    "name": "Alliance Resource Partners LP",
+    "marketCap": 3151623708.96
+  },
+  {
+    "rank": 410,
+    "ticker": "CHA",
+    "name": "Chagee Holdings Limited American Depositary Shares",
+    "marketCap": 3133644506.3
+  },
+  {
+    "rank": 411,
+    "ticker": "CNTA",
+    "name": "Centessa Pharmaceuticals plc American Depositary Shares",
+    "marketCap": 3118548121.36
+  },
+  {
+    "rank": 412,
+    "ticker": "AIR",
+    "name": "AAR Corp.",
+    "marketCap": 3117952472.94
+  },
+  {
+    "rank": 413,
+    "ticker": "BLKB",
+    "name": "Blackbaud, Inc.",
+    "marketCap": 3112824583.44
+  },
+  {
+    "rank": 414,
+    "ticker": "APAM",
+    "name": "ARTISAN PARTNERS ASSET MANAGEMENT INC.",
+    "marketCap": 3092964158.13
+  },
+  {
+    "rank": 415,
+    "ticker": "CIVI",
+    "name": "Civitas Resources, Inc.",
+    "marketCap": 3084651699.61
+  },
+  {
+    "rank": 416,
+    "ticker": "CSQ",
+    "name": "Calamos Strategic Total Return Fund",
+    "marketCap": 3071078510.25
+  },
+  {
+    "rank": 417,
+    "ticker": "ACLS",
+    "name": "Axcelis Technologies Inc",
+    "marketCap": 3062710472.8
+  },
+  {
+    "rank": 418,
+    "ticker": "AMRX",
+    "name": "Amneal Pharmaceuticals, Inc. Class A Common Stock",
+    "marketCap": 3062273262.75
+  },
+  {
+    "rank": 419,
+    "ticker": "BKE",
+    "name": "The Buckle, Inc.",
+    "marketCap": 3058654668.54
+  },
+  {
+    "rank": 420,
+    "ticker": "CAAP",
+    "name": "Corporacion America Airports S.A.",
+    "marketCap": 3052985289.12
+  },
+  {
+    "rank": 421,
+    "ticker": "AVA",
+    "name": "Avista Corporation",
+    "marketCap": 3051386415
+  },
+  {
+    "rank": 422,
+    "ticker": "AEO",
+    "name": "American Eagle Outfitters",
+    "marketCap": 3039632213.9
+  },
+  {
+    "rank": 423,
+    "ticker": "AVNT",
+    "name": "Avient Corporation",
+    "marketCap": 3006192220.28
+  },
+  {
+    "rank": 424,
+    "ticker": "BTU",
+    "name": "Peabody Energy Corporation",
+    "marketCap": 2982848000
+  },
+  {
+    "rank": 425,
+    "ticker": "CNXC",
+    "name": "Concentrix Corporation Common Stock",
+    "marketCap": 2964880940
+  },
+  {
+    "rank": 426,
+    "ticker": "AGYS",
+    "name": "Agilysys, Inc. Common Stock (DE)",
+    "marketCap": 2934958924.7
+  },
+  {
+    "rank": 427,
+    "ticker": "BB",
+    "name": "BlackBerry Limited",
+    "marketCap": 2928190976.64
+  },
+  {
+    "rank": 428,
+    "ticker": "BKU",
+    "name": "Bankunited, Inc.",
+    "marketCap": 2902460910.07
+  },
+  {
+    "rank": 429,
+    "ticker": "BMA",
+    "name": "Banco Macro S.A.",
+    "marketCap": 2899100400.94
+  },
+  {
+    "rank": 430,
+    "ticker": "AUGO",
+    "name": "Aura Minerals Inc. Common Shares",
+    "marketCap": 2894210757.9
+  },
+  {
+    "rank": 431,
+    "ticker": "COLM",
+    "name": "Columbia Sportswear Co",
+    "marketCap": 2883096326.88
+  },
+  {
+    "rank": 432,
+    "ticker": "CMBT",
+    "name": "CMB.TECH NV",
+    "marketCap": 2881385806.17
+  },
+  {
+    "rank": 433,
+    "ticker": "BCC",
+    "name": "Boise Cascade Company",
+    "marketCap": 2880586041.9500003
+  },
+  {
+    "rank": 434,
+    "ticker": "CGON",
+    "name": "CG Oncology, Inc. Common stock",
+    "marketCap": 2862334190.74
+  },
+  {
+    "rank": 435,
+    "ticker": "BBU",
+    "name": "Brookfield Business Partners L.P.Limited Partnership Units",
+    "marketCap": 2860278086.4
+  },
+  {
+    "rank": 436,
+    "ticker": "APLE",
+    "name": "Apple Hospitality REIT, Inc.",
+    "marketCap": 2850987835.35
+  },
+  {
+    "rank": 437,
+    "ticker": "BATRA",
+    "name": "Atlanta Braves Holdings, Inc. Series A Common Stock",
+    "marketCap": 2842810695.8999996
+  },
+  {
+    "rank": 438,
+    "ticker": "CBZ",
+    "name": "CBIZ, Inc.",
+    "marketCap": 2838558029.3700004
+  },
+  {
+    "rank": 439,
+    "ticker": "BSM",
+    "name": "Black Stone Minerals, L.P.",
+    "marketCap": 2832474222.27
+  },
+  {
+    "rank": 440,
+    "ticker": "APLS",
+    "name": "Apellis Pharmaceuticals, Inc. Common Stock",
+    "marketCap": 2825105286.7000003
+  },
+  {
+    "rank": 441,
+    "ticker": "ABM",
+    "name": "ABM Industries, Inc.",
+    "marketCap": 2803287713.1
+  },
+  {
+    "rank": 442,
+    "ticker": "AWR",
+    "name": "American States Water Company",
+    "marketCap": 2788439441.58
+  },
+  {
+    "rank": 443,
+    "ticker": "BFH",
+    "name": "Bread Financial Holdings, Inc.",
+    "marketCap": 2779422403.7000003
+  },
+  {
+    "rank": 444,
+    "ticker": "CAKE",
+    "name": "Cheesecake Factory (The)",
+    "marketCap": 2727120878.25
+  },
+  {
+    "rank": 445,
+    "ticker": "ALKT",
+    "name": "Alkami Technology, Inc. Common Stock",
+    "marketCap": 2672854983.84
+  },
+  {
+    "rank": 446,
+    "ticker": "CVBF",
+    "name": "CVB Financial Corp",
+    "marketCap": 2672283244.61
+  },
+  {
+    "rank": 447,
+    "ticker": "CON",
+    "name": "Concentra Group Holdings Parent, Inc.",
+    "marketCap": 2668519220.64
+  },
+  {
+    "rank": 448,
+    "ticker": "ADX",
+    "name": "Adams Diversified Equity Fund, Inc",
+    "marketCap": 2655966513.75
+  },
+  {
+    "rank": 449,
+    "ticker": "AMSC",
+    "name": "American Superconductor Corp",
+    "marketCap": 2645075435.82
+  },
+  {
+    "rank": 450,
+    "ticker": "BUR",
+    "name": "Burford Capital Limited",
+    "marketCap": 2641055903.37
+  },
+  {
+    "rank": 451,
+    "ticker": "AKR",
+    "name": "Acadia Realty Trust",
+    "marketCap": 2632052757.11
+  },
+  {
+    "rank": 452,
+    "ticker": "ALRM",
+    "name": "Alarm.com Holdings, Inc.",
+    "marketCap": 2630993287.04
+  },
+  {
+    "rank": 453,
+    "ticker": "BANC",
+    "name": "Banc of California, Inc.",
+    "marketCap": 2628250452.96
+  },
+  {
+    "rank": 454,
+    "ticker": "BOH",
+    "name": "Bank of Hawaii Corp.",
+    "marketCap": 2616702026.4
+  },
+  {
+    "rank": 455,
+    "ticker": "CENX",
+    "name": "Century Aluminum Co",
+    "marketCap": 2612561996.79
+  },
+  {
+    "rank": 456,
+    "ticker": "ALVO",
+    "name": "Alvotech Ordinary Shares",
+    "marketCap": 2598753624.36
+  },
+  {
+    "rank": 457,
+    "ticker": "BATRK",
+    "name": "Atlanta Braves Holdings, Inc. Series C Common Stock",
+    "marketCap": 2573590875.0299997
+  },
+  {
+    "rank": 458,
+    "ticker": "BBAI",
+    "name": "BigBear.ai Holdings, Inc.",
+    "marketCap": 2494832522.54
+  },
+  {
+    "rank": 459,
+    "ticker": "CRGY",
+    "name": "Crescent Energy Company",
+    "marketCap": 2487590289.06
+  },
+  {
+    "rank": 460,
+    "ticker": "ATS",
+    "name": "ATS Corporation",
+    "marketCap": 2486375686.08
+  },
+  {
+    "rank": 461,
+    "ticker": "CLVT",
+    "name": "Clarivate Plc",
+    "marketCap": 2480488346.16
+  },
+  {
+    "rank": 462,
+    "ticker": "ACMR",
+    "name": "ACM Research, Inc. Class A Common Stock",
+    "marketCap": 2424115048.05
+  },
+  {
+    "rank": 463,
+    "ticker": "BHC",
+    "name": "Bausch Health Companies Inc",
+    "marketCap": 2396241267.1200004
+  },
+  {
+    "rank": 464,
+    "ticker": "CPRX",
+    "name": "Catalyst Pharmaceutical  Inc.",
+    "marketCap": 2389072515.2
+  },
+  {
+    "rank": 465,
+    "ticker": "CHEF",
+    "name": "The Chef's Warehouse Inc",
+    "marketCap": 2386245999.32
+  },
+  {
+    "rank": 466,
+    "ticker": "CURB",
+    "name": "Curbline Properties Corp.",
+    "marketCap": 2367329130
+  },
+  {
+    "rank": 467,
+    "ticker": "CPRI",
+    "name": "Capri Holdings Limited",
+    "marketCap": 2364294412.02
+  },
+  {
+    "rank": 468,
+    "ticker": "AI",
+    "name": "C3.ai, Inc.",
+    "marketCap": 2362743789.44
+  },
+  {
+    "rank": 469,
+    "ticker": "AMBP",
+    "name": "Ardagh Metal Packaging S.A.",
+    "marketCap": 2354936368.84
+  },
+  {
+    "rank": 470,
+    "ticker": "CC",
+    "name": "The Chemours Company",
+    "marketCap": 2344275378
+  },
+  {
+    "rank": 471,
+    "ticker": "CLM",
+    "name": "Cornerstone Strategic Investment Fund, Inc.",
+    "marketCap": 2333572849.02
+  },
+  {
+    "rank": 472,
+    "ticker": "ALG",
+    "name": "Alamo Group, Inc.",
+    "marketCap": 2332803484.2000003
+  },
+  {
+    "rank": 473,
+    "ticker": "BEAM",
+    "name": "Beam Therapeutics Inc. Common Stock",
+    "marketCap": 2323691737.22
+  },
+  {
+    "rank": 474,
+    "ticker": "ABR",
+    "name": "Arbor Realty Trust, Inc.",
+    "marketCap": 2317232038.7000003
+  },
+  {
+    "rank": 475,
+    "ticker": "BBUC",
+    "name": "Brookfield Business Corporation Class A Exchangeable Subordinate Voting Shares",
+    "marketCap": 2304292614.96
+  },
+  {
+    "rank": 476,
+    "ticker": "CUBI",
+    "name": "CUSTOMERS BANCORP INC",
+    "marketCap": 2303514425.65
+  },
+  {
+    "rank": 477,
+    "ticker": "BLTE",
+    "name": "Belite Bio, Inc American Depositary Shares",
+    "marketCap": 2297681471.96
+  },
+  {
+    "rank": 478,
+    "ticker": "CDTX",
+    "name": "Cidara Therapeutics, Inc.",
+    "marketCap": 2294776825.245
+  },
+  {
+    "rank": 479,
+    "ticker": "APPN",
+    "name": "Appian Corporation Class A Common Stock",
+    "marketCap": 2293510027.86
+  },
+  {
+    "rank": 480,
+    "ticker": "BWLP",
+    "name": "BW LPG Limited",
+    "marketCap": 2292841192.9500003
+  },
+  {
+    "rank": 481,
+    "ticker": "APGE",
+    "name": "Apogee Therapeutics, Inc. Common Stock",
+    "marketCap": 2277774751.98
+  },
+  {
+    "rank": 482,
+    "ticker": "COCO",
+    "name": "The Vita Coco Company, Inc. Common Stock",
+    "marketCap": 2270362205.855
+  },
+  {
+    "rank": 483,
+    "ticker": "ACHC",
+    "name": "Acadia Healthcare Company, Inc.",
+    "marketCap": 2265261901.76
+  },
+  {
+    "rank": 484,
+    "ticker": "AGIO",
+    "name": "Agios Pharmaceuticals, Inc.",
+    "marketCap": 2261892095.74
+  },
+  {
+    "rank": 485,
+    "ticker": "BANR",
+    "name": "Banner Corp.",
+    "marketCap": 2253180305.3
+  },
+  {
+    "rank": 486,
+    "ticker": "ASH",
+    "name": "Ashland Inc.",
+    "marketCap": 2229993690.82
+  },
+  {
+    "rank": 487,
+    "ticker": "ATEC",
+    "name": "Alphatec Holdings, Inc.",
+    "marketCap": 2222716300.5
+  },
+  {
+    "rank": 488,
+    "ticker": "CCU",
+    "name": "Compania Cervecerias Unidas S.A.",
+    "marketCap": 2211474688.92
+  },
+  {
+    "rank": 489,
+    "ticker": "ADUS",
+    "name": "Addus HomeCare Corp.",
+    "marketCap": 2159905424.26
+  },
+  {
+    "rank": 490,
+    "ticker": "CSAN",
+    "name": "Cosan S.A. American Depositary Shares (each representing four Common Shares)",
+    "marketCap": 2151834813.57
+  },
+  {
+    "rank": 491,
+    "ticker": "CELC",
+    "name": "Celcuity Inc. Common Stock",
+    "marketCap": 2146791576.6000001
+  },
+  {
+    "rank": 492,
+    "ticker": "CSTM",
+    "name": "Constellium SE Class A Ordinary shares",
+    "marketCap": 2139133222.59
+  },
+  {
+    "rank": 493,
+    "ticker": "BUSE",
+    "name": "First Busey Corporation Class A Common Stock",
+    "marketCap": 2137581840
+  },
+  {
+    "rank": 494,
+    "ticker": "AMR",
+    "name": "Alpha Metallurgical Resources, Inc.",
+    "marketCap": 2123204310.95
+  },
+  {
+    "rank": 495,
+    "ticker": "CMPO",
+    "name": "CompoSecure, Inc.",
+    "marketCap": 2119237806.6
+  },
+  {
+    "rank": 496,
+    "ticker": "ARQT",
+    "name": "Arcutis Biotherapeutics, Inc. Common Stock",
+    "marketCap": 2106732220.46
+  },
+  {
+    "rank": 497,
+    "ticker": "ASGN",
+    "name": "ASGN Incorporated",
+    "marketCap": 2096706000
+  },
+  {
+    "rank": 498,
+    "ticker": "CENT",
+    "name": "Central Garden and Pet Co",
+    "marketCap": 2089205755.7899997
+  },
+  {
+    "rank": 499,
+    "ticker": "CGAU",
+    "name": "Centerra Gold Inc.",
+    "marketCap": 2085929307
+  },
+  {
+    "rank": 500,
+    "ticker": "AVDX",
+    "name": "AvidXchange Holdings, Inc. Common Stock",
+    "marketCap": 2068679579.88
+  }
+]

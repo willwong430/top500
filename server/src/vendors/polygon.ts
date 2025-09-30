@@ -1,102 +1,70 @@
-// server/src/vendors/polygon.ts
 import axios from "axios";
 import { withBackoff, sleep } from "../lib/retry.js";
 
 const BASE = "https://api.polygon.io";
 const apiKey = process.env.POLYGON_API_KEY!;
 
-// Tunables (override in .env if needed)
-const PAGE_LIMIT    = Number(process.env.POLYGON_PAGE_LIMIT    || 1000); // tickers page size (max 1000)
-const MAX_PAGES     = Number(process.env.POLYGON_MAX_PAGES     || 10);   // ~10k symbols max
-const PAGE_PAUSE    = Number(process.env.POLYGON_PAGE_PAUSE    || 150);  // ms between ticker pages
-const REQ_TIMEOUT   = Number(process.env.POLYGON_REQ_TIMEOUT   || 30000);
-const FIN_CONC      = Number(process.env.POLYGON_FIN_CONC      || 6);    // concurrent financials fetches
-const FIN_DELAY_MS  = Number(process.env.POLYGON_FIN_DELAY_MS  || 120);  // stagger between financial calls
-const FIN_MAX_TICKS = Number(process.env.POLYGON_FIN_MAX_TICKS || 1500); // safety cap: how many tickers to enrich
+// Tunables (override via .env if needed)
+const PAGE_LIMIT     = Number(process.env.POLYGON_PAGE_LIMIT     || 1000); // list page size
+const MAX_PAGES      = Number(process.env.POLYGON_MAX_PAGES      || 10);   // ~10k symbols
+const PAGE_PAUSE_MS  = Number(process.env.POLYGON_PAGE_PAUSE     || 150);
+const REQ_TIMEOUT    = Number(process.env.POLYGON_REQ_TIMEOUT    || 30000);
 
-type Row = { ticker: string; name: string; marketCap?: number };
+const DETAIL_CONC    = Number(process.env.POLYGON_DETAIL_CONC    || 10);   // concurrent detail calls
+const DETAIL_DELAY   = Number(process.env.POLYGON_DETAIL_DELAY   || 100);  // ms between detail calls per worker
+const DETAIL_MAX     = Number(process.env.POLYGON_DETAIL_MAX     || 2500); // enrich up to N symbols (enough to rank 500)
+
+const OVERRIDE_DATE  = process.env.POLYGON_DATE || ""; // optional YYYY-MM-DD
+
+export type Row = { ticker: string; name: string; marketCap?: number };
 
 export async function listUSFromPolygon(): Promise<Row[]> {
   if (!apiKey) throw new Error("POLYGON_API_KEY missing");
 
-  // 1) Bulk previous close for all US stocks (1 request)
-  const prev = await fetchPrevCloseMap();
+  // 1) pick a date
+  const ymd = await getMostRecentTradingDay();
 
-  // 2) Build US ticker list (basic)
+  // 2) build US ticker list (basic)
   const tickers = await fetchUSTickers();
   if (tickers.length === 0) throw new Error("no US tickers returned from /v3/reference/tickers");
 
-  // 3) Fetch shares outstanding for a subset (until we have enough to rank 500)
-  const sharesMap = await fetchSharesOutstandingForMany(
-    tickers.map(t => t.ticker),
-    Math.min(FIN_MAX_TICKS, tickers.length)
-  );
+  // 3) per-ticker detail to get market_cap (until we have enough)
+  const enriched = await enrichMarketCapsByDetail(tickers, ymd);
 
-  // 4) Join and compute market cap
-  const out: Row[] = [];
-  for (const t of tickers) {
-    const price = prev.get(t.ticker);
-    const soRec = sharesMap.get(t.ticker);
-    if (!price || !soRec) continue;
-    const mc = price * soRec.shares;
-    if (Number.isFinite(mc) && mc > 0) {
-      out.push({ ticker: t.ticker, name: t.name, marketCap: mc });
-    }
-  }
+  // 4) sort & return (caller will slice Top 500)
+  const out = enriched
+    .filter(r => r.marketCap && r.marketCap > 0)
+    .sort((a, b) => (b.marketCap! - a.marketCap!));
 
-  // 5) Sort desc and return (caller slices Top 500)
-  out.sort((a, b) => (b.marketCap! - a.marketCap!));
+  if (out.length === 0) throw new Error("polygon detail returned 0 market caps; check plan/permissions");
   return out;
 }
 
 /* ---------- helpers ---------- */
 
-// /v2/aggs/grouped/…/prev — prev close for ALL tickers
-// Replace your fetchPrevCloseMap() with this:
+async function getMostRecentTradingDay(): Promise<string> {
+  if (OVERRIDE_DATE) return OVERRIDE_DATE;
 
-async function fetchPrevCloseMap(): Promise<Map<string, number>> {
-  // Try most recent business days until we get data (max 7 days back)
-  const map = new Map<string, number>();
+  const toYMD = (d: Date) => new Date(d.getTime() - d.getTimezoneOffset() * 60000)
+    .toISOString().slice(0, 10);
 
-  // Helper: format date as YYYY-MM-DD in America/New_York (close is based on US markets)
-  const toYMD = (d: Date) =>
-    new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
-
-  // Start from "yesterday" ET and walk back skipping weekends/holidays
   let d = new Date();
   d.setDate(d.getDate() - 1);
-
-  for (let tries = 0; tries < 7; tries++) {
-    const day = d.getDay(); // 0=Sun, 6=Sat
-    if (day === 0) { d.setDate(d.getDate() - 1); continue; } // skip Sun
-    if (day === 6) { d.setDate(d.getDate() - 1); continue; } // skip Sat
-
-    const ymd = toYMD(d);
-    const url = `${BASE}/v2/aggs/grouped/locale/us/market/stocks/${ymd}?adjusted=true&apiKey=${apiKey}`;
-
-    const { data } = await withBackoff(
-      () => axios.get(url, { timeout: REQ_TIMEOUT }),
-      { tries: 6, baseMs: 800, maxMs: 20000 }
-    );
-
-    const rows: any[] = Array.isArray(data?.results) ? data.results : [];
-    if (rows.length > 0) {
-      for (const r of rows) {
-        if (!r?.T || !Number.isFinite(r?.c)) continue;
-        map.set(r.T, Number(r.c)); // T=ticker, c=close
-      }
-      if (map.size > 0) return map;
+  for (let i = 0; i < 7; i++) {
+    const day = d.getDay(); // 0 Sun, 6 Sat
+    if (day !== 0 && day !== 6) {
+      // sanity ping: list 1 ticker with &date to ensure the day is valid
+      const url = `${BASE}/v3/reference/tickers?active=true&market=stocks&locale=us&limit=1&date=${toYMD(d)}&apiKey=${apiKey}`;
+      try {
+        const { data } = await withBackoff(() => axios.get(url, { timeout: REQ_TIMEOUT }), { tries: 3 });
+        if (Array.isArray(data?.results) && data.results.length > 0) return toYMD(d);
+      } catch { /* try previous biz day */ }
     }
-
-    // No data (holiday?) → go back one more day
     d.setDate(d.getDate() - 1);
   }
-
-  throw new Error("grouped prices: no data found for the last 7 calendar days");
+  throw new Error("could not find a recent trading day");
 }
 
-
-// /v3/reference/tickers — US active stocks, paginated
 async function fetchUSTickers(): Promise<{ ticker: string; name: string }[]> {
   let url =
     `${BASE}/v3/reference/tickers?` +
@@ -116,73 +84,52 @@ async function fetchUSTickers(): Promise<{ ticker: string; name: string }[]> {
       if (r?.ticker) out.push({ ticker: r.ticker, name: r.name || r.ticker });
     }
     url = data?.next_url ? `${data.next_url}&apiKey=${apiKey}` : "";
-    if (url) await sleep(PAGE_PAUSE);
+    if (url) await sleep(PAGE_PAUSE_MS);
   }
   return out;
 }
 
-// Fetch shares outstanding for many tickers via Financials endpoint
-async function fetchSharesOutstandingForMany(symbols: string[], maxTickers: number) {
-  // process with limited concurrency
-  const out = new Map<string, { shares: number }>();
-  let idx = 0;
-  const total = Math.min(maxTickers, symbols.length);
+async function enrichMarketCapsByDetail(
+  tickers: { ticker: string; name: string }[],
+  dateYMD: string
+): Promise<Row[]> {
+  const out: Row[] = [];
+  let i = 0;
+  const total = Math.min(DETAIL_MAX, tickers.length);
 
   async function worker() {
     while (true) {
-      const i = idx++;
-      if (i >= total) break;
-      const sym = symbols[i];
+      const idx = i++;
+      if (idx >= total) break;
+      const t = tickers[idx];
       try {
-        const so = await fetchOneShares(sym);
-        if (Number.isFinite(so) && so > 0) out.set(sym, { shares: so });
-      } catch {
-        // ignore this symbol; continue
-      }
-      if (FIN_DELAY_MS > 0) await sleep(FIN_DELAY_MS);
+        const mc = await fetchOneMarketCap(t.ticker, dateYMD);
+        if (Number.isFinite(mc) && (mc as number) > 0) {
+          out.push({ ticker: t.ticker, name: t.name, marketCap: mc as number });
+        }
+      } catch { /* ignore symbol and continue */ }
+      if (DETAIL_DELAY > 0) await sleep(DETAIL_DELAY);
     }
   }
 
-  const workers = Array.from({ length: FIN_CONC }, () => worker());
-  await Promise.all(workers);
+  await Promise.all(Array.from({ length: DETAIL_CONC }, () => worker()));
   return out;
 }
 
-// Fetch most recent shares outstanding for a single ticker
-async function fetchOneShares(ticker: string): Promise<number> {
-  // NOTE: Adjust this endpoint/field if your plan names differ.
-  // Common Polygon path: /vX/reference/financials?ticker={T}&timeframe=quarterly&limit=1
-  const url =
-    `${BASE}/vX/reference/financials?` +
-    `ticker=${encodeURIComponent(ticker)}` +
-    `&timeframe=quarterly&limit=1&apiKey=${apiKey}`;
-
+async function fetchOneMarketCap(ticker: string, dateYMD: string): Promise<number | undefined> {
+  const url = `${BASE}/v3/reference/tickers/${encodeURIComponent(ticker)}?date=${dateYMD}&apiKey=${apiKey}`;
   const { data } = await withBackoff(
     () => axios.get(url, { timeout: REQ_TIMEOUT }),
-    { tries: 6, baseMs: 800, maxMs: 20000 }
+    { tries: 4, baseMs: 800, maxMs: 15000 }
   );
 
-  // Try multiple common fields for shares outstanding
-  // Depending on Polygon plan/version, the field may be inside data.results[0].financials
-  const rec: any = Array.isArray(data?.results) ? data.results[0] : null;
-  const fin: any = rec?.financials || rec || {};
-
+  const r = data?.results || data;
+  // prefer the exact field you observed
   const candidates = [
-    fin?.income_statement?.weighted_average_shares_outstanding,
-    fin?.income_statement?.weightedAverageShsOut,
-    fin?.shares_outstanding,
-    fin?.share_class_shares_outstanding,
-  ].map(Number).filter((n: any) => Number.isFinite(n) && n > 0);
+    Number(r?.market_cap),
+    Number(r?.marketcap),
+    Number(r?.marketCapitalization),
+  ].filter(n => Number.isFinite(n) && n > 0);
 
-  if (candidates.length) return candidates[0];
-
-  // Some plans expose a flat market cap or shares directly; keep this as a fallback
-  const flatCandidates = [
-    Number(rec?.shares_outstanding),
-    Number(rec?.share_class_shares_outstanding),
-  ].filter((n: any) => Number.isFinite(n) && n > 0);
-
-  if (flatCandidates.length) return flatCandidates[0];
-
-  throw new Error(`no shares data for ${ticker}`);
+  return candidates[0];
 }
